@@ -11,10 +11,6 @@ class GuidePage extends mixin(Page, NavigationBar) {
   open() {
     super.open('guide.html');
   }
-
-  getTitle() {
-    this.title.getText();
-  }
 }
 
 module.exports = new GuidePage();
