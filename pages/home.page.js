@@ -1,4 +1,3 @@
-// home.page.js
 "use strict";
 let mixin = require('xmultiple');
 
